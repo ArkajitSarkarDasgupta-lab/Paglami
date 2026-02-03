@@ -8,7 +8,15 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
-
+<div id="login-overlay">
+        <div class="glass-box">
+            <h2>🔒 Protected Area</h2>
+            <p>Enter the secret code.</p>
+            <input type="password" id="password-input" placeholder="Password...">
+            <button onclick="checkPassword()" class="yes-btn">Unlock</button>
+            <p id="error-msg" style="color: red; display: none;">Wrong Password!</p>
+        </div>
+    </div>
     <div id="intro-screen">
         <div class="glass-box">
             <h1>Hey Sonali! Can I show you something special?</h1>
@@ -59,4 +67,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
