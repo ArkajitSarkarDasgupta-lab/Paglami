@@ -1,4 +1,12 @@
-// 1. The "Impossible" No Button
+function checkPassword() {
+    const secret = "212021"; // <--- CHANGE THIS to your real password
+    const input = document.getElementById('password-input').value;
+    if (input === secret) {
+        document.getElementById('login-overlay').style.display = 'none';
+    } else {
+        document.getElementById('error-msg').style.display = 'block';
+    }
+}// 1. The "Impossible" No Button
 const noBtn = document.getElementById('no-btn');
 
 noBtn.addEventListener('mouseover', () => {
@@ -43,4 +51,5 @@ function createHeart() {
     setTimeout(() => {
         heart.remove();
     }, 5000);
+
 }
