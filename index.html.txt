@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Arnali ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div id="intro-screen">
+        <div class="glass-box">
+            <h1>Hey Sonali! Can I show you something special?</h1>
+            <div class="buttons">
+                <button onclick="startJourney()" class="yes-btn">Yes!</button>
+                <button id="no-btn" class="no-btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery-screen" style="display: none;">
+        <header>
+            <h1>Our Little World ✨</h1>
+            <p>Every moment with you is a favorite memory.</p>
+        </header>
+        
+        <div class="gallery">
+            <div class="photo-card">
+                <img src="photo1.jpg" alt="Memory 1">
+                <p>Opekhar Oboshan</p> </div>
+            
+            <div class="photo-card">
+                <img src="photo2.jpg" alt="Memory 2">
+                <p>Blush na kore asisss.</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="photo3.jpg" alt="Memory 3">
+                <p>Mall a romance</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="photo4.jpg" alt="Memory 4">
+                <p>cute na? ✨</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="photo5.jpg" alt="Memory 5">
+                <p>Sang Rahiyo</p>
+            </div>
+        </div>
+
+        <div class="conclusion">
+            <h1 class="arnali-text">Arnali Forever ❤️</h1>
+            <p>To infinity and beyond.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
